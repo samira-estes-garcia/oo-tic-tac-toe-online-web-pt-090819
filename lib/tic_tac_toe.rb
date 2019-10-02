@@ -52,7 +52,7 @@ class TicTacToe
     puts "Please enter 1-9:"
     #player 
     #get input 
-    user_input = gets.chomp
+    user_input = gets.strip
     player = current_player
     #if index is valid 
     if valid_move?(user_input)
