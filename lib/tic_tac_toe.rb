@@ -78,4 +78,12 @@ class TicTacToe
     end
   end
   
+  def won?
+    if WIN_COMBINATIONS
+      true
+    else
+      false 
+    end
+  end
+  
 end
