@@ -92,7 +92,7 @@ class TicTacToe
   
   def full?
     board = @board.all?
-    @board.all?.each do |spaces|
+    board.each do |spaces|
       if spaces != " "
         true
       else
