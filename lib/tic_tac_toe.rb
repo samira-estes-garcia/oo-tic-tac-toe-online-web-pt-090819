@@ -124,6 +124,7 @@ class TicTacToe
 
   def play
     turn 
+    over?
     
   end
 
