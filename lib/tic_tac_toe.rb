@@ -94,4 +94,7 @@ class TicTacToe
    @board.all?{|occupied| occupied != " "}
   end
   
+  def draw
+  end
+  
 end
