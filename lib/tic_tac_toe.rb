@@ -64,6 +64,7 @@ class TicTacToe
       if turns == "X" || turns == "O"
         number_of_turns += 1 
       end
+    end
   end
   
 end
