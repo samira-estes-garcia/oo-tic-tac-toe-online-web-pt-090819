@@ -90,4 +90,14 @@ class TicTacToe
     end
   end
   
+  def full?
+    @board.all.each do |spaces|
+      if spaces != " "
+        true
+      else
+        false
+      end
+    end
+  end
+  
 end
