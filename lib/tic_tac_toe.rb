@@ -94,7 +94,7 @@ class TicTacToe
    @board.all?{|occupied| occupied != " "}
   end
   
-  def draw
+  def draw?
     if full? && !won?
       true
     else
