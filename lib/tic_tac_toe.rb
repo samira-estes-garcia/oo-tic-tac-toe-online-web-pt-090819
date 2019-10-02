@@ -112,7 +112,7 @@ class TicTacToe
   
   def winner
     won?
-    if win_combo == "X"
+    if @board == "X"
       "X"
     else
       "O"
