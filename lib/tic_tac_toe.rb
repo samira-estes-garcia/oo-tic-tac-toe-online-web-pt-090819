@@ -59,9 +59,10 @@ class TicTacToe
      #make move for the index 
      move(user_input, player)
      #show the board 
-     display_board(@board)
+     display_board
     #else 
       #ask for input again
+      turn
   end
   
   def turn_count
