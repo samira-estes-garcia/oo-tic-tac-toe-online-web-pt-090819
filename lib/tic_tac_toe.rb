@@ -114,6 +114,7 @@ class TicTacToe
   if won?(board) != nil
     winner = board[won?(board)[0]]
   end
+  winner
 end
   
 end
