@@ -53,6 +53,7 @@ class TicTacToe
     #player 
     #get input 
     user_input = gets.chomp
+    index = input_to_index(user_input)
     #if index is valid 
     if valid_move?(user_input)
      #make move for the index 
