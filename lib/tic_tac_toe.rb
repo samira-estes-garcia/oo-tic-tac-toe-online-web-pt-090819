@@ -112,9 +112,8 @@ class TicTacToe
   
   def winner(board)
     if won?(board) != nil 
-      true
-    else
-      false
+      winner = board[won?(board)[0]]
+    end
   end
   
 end
