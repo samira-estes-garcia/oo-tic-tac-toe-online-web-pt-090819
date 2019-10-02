@@ -126,6 +126,8 @@ class TicTacToe
     while over? == false 
       turn 
     end
+    if won?
+      puts "Congratulations #{winner}!"
     
   end
 
