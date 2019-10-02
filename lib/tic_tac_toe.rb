@@ -68,7 +68,7 @@ class TicTacToe
     number_of_turns
   end
   
-  def current_player(player)
+  def current_player
     turn_count
     if @board[turns] == "X"
       "O"
