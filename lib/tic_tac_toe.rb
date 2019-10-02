@@ -79,10 +79,8 @@ class TicTacToe
   end
   
   def won?
-    if WIN_COMBINATIONS
-      true
-    else
-      false 
+    WIN_COMBINATIONS.detect do |win_combo|
+      
     end
   end
   
