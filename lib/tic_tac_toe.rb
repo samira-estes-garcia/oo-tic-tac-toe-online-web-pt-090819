@@ -55,7 +55,7 @@ class TicTacToe
     #if index is valid 
     if valid_move?(user_input)
      #make move for the index 
-     
+     move()
      #show the board 
     #else 
       #ask for input again
