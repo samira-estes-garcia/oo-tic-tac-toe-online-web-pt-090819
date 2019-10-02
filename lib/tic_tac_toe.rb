@@ -110,13 +110,11 @@ class TicTacToe
     end
   end
   
-  def winner
-    won?
-    if @board == "X"
-      "X"
+  def winner(board)
+    if won?(board) != nil 
+      true
     else
-      "O"
-    end
+      false
   end
   
 end
