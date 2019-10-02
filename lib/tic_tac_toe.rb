@@ -97,6 +97,7 @@ class TicTacToe
       else
         false
       end
+      spaces
     end
   end
   
