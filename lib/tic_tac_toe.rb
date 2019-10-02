@@ -110,4 +110,12 @@ class TicTacToe
     end
   end
   
+  def winner
+    won?
+    if win_combo == "X"
+      "X"
+    else
+      "O"
+  end
+  
 end
