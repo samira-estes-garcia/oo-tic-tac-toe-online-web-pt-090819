@@ -53,8 +53,9 @@ class TicTacToe
     #get input 
     user_input = gets.chomp
     #if index is valid 
-    if valid_move?
+    if valid_move?(user_input)
      #make move for the index 
+     
      #show the board 
     #else 
       #ask for input again
