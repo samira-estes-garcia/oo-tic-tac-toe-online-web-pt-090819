@@ -63,6 +63,7 @@ class TicTacToe
     #else 
       #ask for input again
       turn
+    end
   end
   
   def turn_count
